@@ -31,9 +31,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // load audio files
         soundManager.loadGameStartSound()
-         // play game start sound
+        soundManager.loadCorrectSound()
+        // Play start sound
         soundManager.playGameStartSound()
         
         displayQuestion()
@@ -137,10 +137,12 @@ class ViewController: UIViewController {
         if isCorrectAnswer {
             
             // Here this is true
+            soundManager.playCorrectSound()
             questionField.text = "Correct!"
             gameManager.correctQuestions += 1
         } else {
-            questionField.text = "Sorry, wrong answer!"
+            let answer: String = gameManager.currentQuestion!.answer
+            questionField.text = "Sorry, wrong answer!, the correct answer was \(answer)."
         }
         
         loadNextRound(delay: 2)
