@@ -1,12 +1,3 @@
-//
-//  SoundManager.swift
-//  EnhanceQuizStarter
-//
-//  Created by Anil on 1/15/19.
-//  Copyright © 2019 kesarwani. All rights reserved.
-//
-
-import Foundation
 import AudioToolbox
 
 
@@ -14,7 +5,8 @@ import AudioToolbox
 struct SoundManager {
     var gameSound: SystemSoundID = 0
     var correctSound: SystemSoundID = 0
-    
+    var wrongSound: SystemSoundID = 0
+
     
     mutating func loadGameStartSound() {
         let path = Bundle.main.path(forResource: "GameSound", ofType: "wav")
@@ -30,12 +22,23 @@ struct SoundManager {
         
     }
     
+    mutating func loadWrongSound() {
+        let path = Bundle.main.path(forResource: "wrongdj", ofType: "wav")
+        let soundUrl = URL(fileURLWithPath: path!)
+        AudioServicesCreateSystemSoundID(soundUrl as CFURL, &wrongSound)
+        
+    }
+    
     func playGameStartSound() {
         AudioServicesPlaySystemSound(gameSound)
     }
     
     func playCorrectSound() {
         AudioServicesPlaySystemSound(correctSound)
+    }
+    
+    func playWrongSound() {
+        AudioServicesPlaySystemSound(wrongSound)
     }
     
 }

@@ -1,14 +1,3 @@
-
-
-//  GameManger.swift
-//  EnhanceQuizStarter
-//
-//  Created by Anil on 1/14/19.
-//  Copyright © 2019 kesarwani. All rights reserved.
-//
-
-
-
 import GameKit
 
 
