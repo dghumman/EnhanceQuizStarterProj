@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03042A9F222F3A51004356BF /* Correct.wav in Resources */ = {isa = PBXBuildFile; fileRef = 03042A9E222F3A51004356BF /* Correct.wav */; };
-		03042AA1222F3E49004356BF /* wrongdj.wav in Resources */ = {isa = PBXBuildFile; fileRef = 03042AA0222F3E49004356BF /* wrongdj.wav */; };
+		03042AA3222F43B6004356BF /* Correct.wav in Resources */ = {isa = PBXBuildFile; fileRef = 03042AA2222F43B5004356BF /* Correct.wav */; };
+		03042AA5222F43BD004356BF /* wrongdj.wav in Resources */ = {isa = PBXBuildFile; fileRef = 03042AA4222F43BD004356BF /* wrongdj.wav */; };
 		0415D58421D5D4E5009D0F07 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0415D58321D5D4E5009D0F07 /* GameManager.swift */; };
 		04845AE621EE51F500AF8EFC /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04845AE521EE51F500AF8EFC /* SoundManager.swift */; };
 		972A72B12056F06C0059EF4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 972A72B02056F06C0059EF4A /* AppDelegate.swift */; };
@@ -20,8 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		03042A9E222F3A51004356BF /* Correct.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Correct.wav; path = ../../../../Desktop/Correct.wav; sourceTree = "<group>"; };
-		03042AA0222F3E49004356BF /* wrongdj.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = wrongdj.wav; path = ../../../../Desktop/wrongdj.wav; sourceTree = "<group>"; };
+		03042AA2222F43B5004356BF /* Correct.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Correct.wav; sourceTree = "<group>"; };
+		03042AA4222F43BD004356BF /* wrongdj.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wrongdj.wav; sourceTree = "<group>"; };
 		0415D58321D5D4E5009D0F07 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
 		04845AE521EE51F500AF8EFC /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
 		972A72AD2056F06C0059EF4A /* EnhanceQuizStarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnhanceQuizStarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,8 +81,8 @@
 				972A72B92056F06C0059EF4A /* LaunchScreen.storyboard */,
 				972A72BC2056F06C0059EF4A /* Info.plist */,
 				972A72C22056F0E40059EF4A /* GameSound.wav */,
-				03042A9E222F3A51004356BF /* Correct.wav */,
-				03042AA0222F3E49004356BF /* wrongdj.wav */,
+				03042AA2222F43B5004356BF /* Correct.wav */,
+				03042AA4222F43BD004356BF /* wrongdj.wav */,
 			);
 			path = EnhanceQuizStarter;
 			sourceTree = "<group>";
@@ -150,8 +150,8 @@
 				972A72C32056F0E40059EF4A /* GameSound.wav in Resources */,
 				972A72BB2056F06C0059EF4A /* LaunchScreen.storyboard in Resources */,
 				972A72B82056F06C0059EF4A /* Assets.xcassets in Resources */,
-				03042A9F222F3A51004356BF /* Correct.wav in Resources */,
-				03042AA1222F3E49004356BF /* wrongdj.wav in Resources */,
+				03042AA3222F43B6004356BF /* Correct.wav in Resources */,
+				03042AA5222F43BD004356BF /* wrongdj.wav in Resources */,
 				972A72B62056F06C0059EF4A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
