@@ -25,8 +25,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="252" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CSn-ih-qRR">
-                                <rect key="frame" x="20" y="186" width="335" height="30"/>
+                                <rect key="frame" x="20" y="167" width="335" height="50"/>
                                 <color key="backgroundColor" red="0.047058823530000002" green="0.47450980390000003" blue="0.58823529409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Rgx-ZE-yyI"/>
+                                </constraints>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="True"/>
                                 <connections>
@@ -34,8 +37,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="252" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eic-Nx-foS">
-                                <rect key="frame" x="20" y="617" width="335" height="30"/>
+                                <rect key="frame" x="20" y="597" width="335" height="50"/>
                                 <color key="backgroundColor" red="0.0" green="0.57647058819999997" blue="0.52941176469999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="dPx-OU-703"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Play Again"/>
@@ -44,8 +50,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="252" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yed-eP-eqi">
-                                <rect key="frame" x="20" y="227" width="335" height="30"/>
+                                <rect key="frame" x="20" y="267" width="335" height="50"/>
                                 <color key="backgroundColor" red="0.047058823530000002" green="0.47450980390000003" blue="0.58823529409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Zcc-zm-6NI"/>
+                                </constraints>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="True"/>
                                 <connections>
@@ -53,8 +62,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="252" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OGl-eZ-6P4">
-                                <rect key="frame" x="20" y="268" width="335" height="30"/>
+                                <rect key="frame" x="20" y="367" width="335" height="50"/>
                                 <color key="backgroundColor" red="0.047058823530000002" green="0.47450980390000003" blue="0.58823529409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="dwW-Xk-es0"/>
+                                </constraints>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="True"/>
                                 <connections>
@@ -62,8 +74,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="252" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RU0-0d-PuZ">
-                                <rect key="frame" x="20" y="309" width="335" height="30"/>
+                                <rect key="frame" x="20" y="467" width="335" height="50"/>
                                 <color key="backgroundColor" red="0.047058823530000002" green="0.47450980390000003" blue="0.58823529409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Kib-ph-izf"/>
+                                </constraints>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="True"/>
                                 <connections>
@@ -74,7 +89,7 @@
                         <color key="backgroundColor" red="0.031372549020000001" green="0.16862745100000001" blue="0.24313725489999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="CSn-ih-qRR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="3hw-jd-MCF"/>
-                            <constraint firstItem="RU0-0d-PuZ" firstAttribute="top" secondItem="OGl-eZ-6P4" secondAttribute="bottom" constant="11" id="CKL-OO-Qc0"/>
+                            <constraint firstItem="RU0-0d-PuZ" firstAttribute="top" secondItem="OGl-eZ-6P4" secondAttribute="bottom" constant="50" id="CKL-OO-Qc0"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CSn-ih-qRR" secondAttribute="trailing" constant="20" id="D6h-mi-DeB"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Yed-eP-eqi" secondAttribute="trailing" constant="20" id="DIB-KK-lRw"/>
                             <constraint firstItem="dCF-BL-dDa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="51" id="H1X-xy-I0W"/>
@@ -86,9 +101,9 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eic-Nx-foS" secondAttribute="trailing" constant="20" id="PdK-e3-Qfh"/>
                             <constraint firstItem="RU0-0d-PuZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Pqy-z6-6QP"/>
                             <constraint firstItem="OGl-eZ-6P4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="QJU-nh-iee"/>
-                            <constraint firstItem="Yed-eP-eqi" firstAttribute="top" secondItem="CSn-ih-qRR" secondAttribute="bottom" constant="11" id="SCV-gh-nh7"/>
-                            <constraint firstItem="OGl-eZ-6P4" firstAttribute="top" secondItem="Yed-eP-eqi" secondAttribute="bottom" constant="11" id="TvJ-OX-FLf"/>
-                            <constraint firstItem="eic-Nx-foS" firstAttribute="top" secondItem="RU0-0d-PuZ" secondAttribute="bottom" constant="278" id="isE-SW-iQK"/>
+                            <constraint firstItem="Yed-eP-eqi" firstAttribute="top" secondItem="CSn-ih-qRR" secondAttribute="bottom" constant="50" id="SCV-gh-nh7"/>
+                            <constraint firstItem="OGl-eZ-6P4" firstAttribute="top" secondItem="Yed-eP-eqi" secondAttribute="bottom" constant="50" id="TvJ-OX-FLf"/>
+                            <constraint firstItem="eic-Nx-foS" firstAttribute="top" secondItem="RU0-0d-PuZ" secondAttribute="bottom" constant="80" id="isE-SW-iQK"/>
                             <constraint firstItem="dCF-BL-dDa" firstAttribute="leading" secondItem="CSn-ih-qRR" secondAttribute="leading" id="n4X-uc-Nrx"/>
                             <constraint firstItem="eic-Nx-foS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ufE-FT-79E"/>
                         </constraints>
